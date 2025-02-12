@@ -1,0 +1,41 @@
+header {
+  background-color: white;
+}
+header .container {
+  background-color: transparent;
+  display: flex;
+  min-height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+}
+.site-name {
+  font-size: 2em;
+  font-weight: 600;
+  color: rgb(218, 45, 14);
+}
+.active {
+  color: rgb(218, 45, 14);
+}
+.nav-page {
+  display: flex;
+  flex-basis: 60%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+header ul {
+  margin: 0;
+  flex-basis: 80%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.order {
+  padding: 12px 0;
+  border-radius: 4px;
+  border: 2px solid #da2d0e;
+  flex-basis: 40%;
+  align-self: center;
+  text-align: center;
+}

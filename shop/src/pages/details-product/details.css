@@ -1,0 +1,10 @@
+.details-card {
+  justify-content: space-between;
+  display: flex;
+  max-width: 600px;
+  padding: 24px;
+  border: 1px solid red;
+  border-radius: 12px;
+  margin: 0 auto;
+  height: 600px;
+}

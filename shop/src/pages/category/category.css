@@ -1,0 +1,30 @@
+.category-list {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.category-item {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.first-section-category {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      102.76deg,
+      rgba(18, 18, 17, 0.78) 2.03%,
+      rgba(18, 18, 17, 0.6) 58.46%,
+      rgba(18, 18, 17, 0) 90.36%
+    ),
+    url("./pexels-photo-1796698-1024x682.jpeg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
