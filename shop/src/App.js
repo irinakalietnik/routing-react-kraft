@@ -33,7 +33,7 @@ function App() {
         </Route>
         <Route path="/:productId" element={<DetailsProduct />} />
         <Route path="order" element={<Order />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<Main /> } />
       </Routes>
       <Footer />
     </Router>
