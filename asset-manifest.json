@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/routing-react-kraft/static/css/main.9c1d4a5d.css",
-    "main.js": "/routing-react-kraft/static/js/main.9a4c768c.js",
+    "main.js": "/routing-react-kraft/static/js/main.6116f855.js",
     "static/js/488.597f76cf.chunk.js": "/routing-react-kraft/static/js/488.597f76cf.chunk.js",
     "static/media/beer-machine-alcohol-brewery-159291.jpeg": "/routing-react-kraft/static/media/beer-machine-alcohol-brewery-159291.dd0119fe2af63ea78f5b.jpeg",
     "static/media/pexels-photo-1796698-1024x682.jpeg": "/routing-react-kraft/static/media/pexels-photo-1796698-1024x682.89a76c7685a51d81c431.jpeg",
     "static/media/pexels-photo-1267307.jpeg": "/routing-react-kraft/static/media/pexels-photo-1267307.50cb35ccf65346ad013c.jpeg",
     "index.html": "/routing-react-kraft/index.html",
     "main.9c1d4a5d.css.map": "/routing-react-kraft/static/css/main.9c1d4a5d.css.map",
-    "main.9a4c768c.js.map": "/routing-react-kraft/static/js/main.9a4c768c.js.map",
+    "main.6116f855.js.map": "/routing-react-kraft/static/js/main.6116f855.js.map",
     "488.597f76cf.chunk.js.map": "/routing-react-kraft/static/js/488.597f76cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c1d4a5d.css",
-    "static/js/main.9a4c768c.js"
+    "static/js/main.6116f855.js"
   ]
 }
