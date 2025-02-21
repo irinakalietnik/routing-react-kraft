@@ -22,7 +22,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/routing-react-kraft" element={<Main />} />
         <Route path="about" element={<AboutUs />} />
         <Route path="assortment" element={<Category />}>
           {category.map((item) => (
@@ -33,7 +33,7 @@ function App() {
         </Route>
         <Route path="/:productId" element={<DetailsProduct />} />
         <Route path="order" element={<Order />} />
-        <Route path="*" element={<Main /> } />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>
