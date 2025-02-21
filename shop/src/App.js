@@ -19,10 +19,10 @@ import {
 import { NotFound } from "./pages/notFound/notFound";
 function App() {
   return (
-    <Router>
+    <Router basename="routing-react-kraft">
       <Header />
       <Routes>
-        <Route path="/routing-react-kraft" element={<Main />} />
+        <Route path="/" element={<Main />} />
         <Route path="about" element={<AboutUs />} />
         <Route path="assortment" element={<Category />}>
           {category.map((item) => (
