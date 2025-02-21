@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <div className="container">
-        <div className="site-name">CRAFT</div>
+        <div className="site-name">KRAFT</div>
         <nav className="nav-page">
           <ul>
             <li>

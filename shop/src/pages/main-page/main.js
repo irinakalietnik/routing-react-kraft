@@ -1,6 +1,6 @@
-import "./main-page.css"
+import "./main-page.css";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
-import { AboutUs } from "../about-us/aboutUs";
+
 import { Outlet } from "react-router-dom";
 
 function Main() {
