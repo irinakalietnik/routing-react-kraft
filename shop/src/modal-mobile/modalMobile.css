@@ -1,0 +1,42 @@
+@media (min-width: 600px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .mobile-menu {
+    left: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    bottom: 0;
+    background-color: beige;
+    color: black;
+    transform: translateX(100%);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mobile-is-open {
+    transform: translateX(0);
+  }
+  .mobil-List {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 40px;
+    font-size: 1.2em;
+  }
+  .mobil-List a {
+    text-decoration: none;
+  }
+  .mobile-menu footer {
+    color: white;
+    background-color: black;
+  }
+  .footer {
+    padding: 24px;
+  }
+}

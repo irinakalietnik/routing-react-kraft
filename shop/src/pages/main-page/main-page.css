@@ -33,18 +33,26 @@
   text-align: center;
 }
 .btn-main {
-  background-color: #da2d0e;
+  background-color: #cf5e4a;
   color: white;
   padding: 1em 2em;
   border-radius: 6px;
-  border: 1px solid rgb(218, 45, 14);
+  border: 1px solid #cf5e4a;
   font-size: 1em;
 }
 .btn-main:hover {
   background-color: rgb(165, 40, 18);
 }
+.main-link {
+  color: grey;
+}
 .second-main-section {
-  padding: 5vh 0 5vh 0;
+  padding: 4vw 0 4vw 0;
+}
+.services-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 0 0;
 }
 .services-img-block {
   display: flex;
@@ -59,6 +67,7 @@
   height: 400px;
   border-radius: 0 40px 0 40px;
 }
+
 .fourth-main-section {
   background-image: url("./beer-machine-alcohol-brewery-159291.jpeg");
 }
@@ -84,13 +93,25 @@
   gap: 20px;
   padding: 16px;
 }
+.title-review {
+  color: white;
+  margin: 30px;
+  font-size: 2em;
+  text-align: center;
+}
+.title-block {
+  text-align: center;
+  margin: 3vw;
+}
 .team-grid {
   display: grid;
   row-gap: 0px;
   column-gap: 0px;
   grid-template-columns:
-    minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr)
+    minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr)
+    minmax(1px, 1fr)
     minmax(1px, 1fr);
+
   grid-template-rows: minmax(1px, 1fr);
   align-items: center;
   justify-items: stretch;
@@ -102,4 +123,85 @@
 }
 .persona-info {
   padding: 20px;
+}
+.services {
+  display: flex;
+}
+.title-section {
+  font-size: 2em;
+  flex-basis: 50%;
+}
+
+@media (max-width: 960px) {
+  .team-grid {
+    grid-template-columns:
+      minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr)
+      minmax(1px, 1fr);
+
+    grid-template-rows: minmax(1px, 1fr);
+  }
+  .mobile-none {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 2em;
+    font-weight: 600;
+    max-width: 300px;
+  }
+  .first-main-section .container {
+    padding: 70px 30px;
+  }
+  .btn-main {
+    padding: 1em;
+  }
+  .services {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .title-section {
+    font-weight: 600;
+    font-size: 1.2em;
+    flex-basis: 100%;
+  }
+  .services-block {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .services-img-block {
+    text-align: center;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .third-main-section {
+    display: none;
+  }
+  .reviews-block {
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 12px 12px 0 0;
+  }
+  .review {
+    gap: 6px;
+    width: 100%;
+  }
+  .title-review {
+    font-size: 1.3em;
+  }
+
+  .team-grid {
+    grid-template-columns: minmax(1px, 1fr) minmax(1px, 1fr);
+
+    grid-template-rows: minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr);
+  }
+  .mobile-none {
+    display: none;
+  }
+  .first-main-section {
+    background-position: center top;
+  }
 }

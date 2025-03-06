@@ -9,16 +9,12 @@ function Footer() {
           <div style={{ fontSize: "2em" }}>
             Пориньте у світ крафтового пива сьогодні!
           </div>
-          <button className="btn-main">
-            <Link style={{ color: "white", fontWeight: "600" }} to="order">
-              ЗРОБИТИ ЗАМОВЛЕННЯ
-            </Link>
-          </button>
+          <div className="site-name">CRAFT</div>
         </div>
         <div className="footer-bottom">
           <div style={{ flexBasis: "40%" }}>
-            <p>Про нас</p>
-            <p>
+            <p className="mobile-none">Про нас</p>
+            <p className="mobile-none">
               Крафт - ваш надійний партнер у створенні унікальних смаків
               крафтового пива прямо з України.
             </p>
@@ -27,9 +23,10 @@ function Footer() {
             </p>
           </div>
           <div style={{ flexBasis: "20%" }}>
-            <p>Швидкі посилання</p>
+            <p className="mobile-none">Швидкі посилання</p>
+            <div className="site-name descktop-none">CRAFT</div>
             <nav className="nav-page">
-              <ul>
+              <ul className="footer-list">
                 <li>
                   <Link
                     style={{ color: "white" }}
@@ -63,7 +60,7 @@ function Footer() {
               </ul>
             </nav>
           </div>
-          <div style={{ flexBasis: "30%" }}>
+          <div className="mobile-none" style={{ flexBasis: "30%" }}>
             <p>Контактна інформація</p>
             <ul>
               <li>email: kraft@com.ua</li>

@@ -21,3 +21,20 @@
   width: 100%;
   border-radius: 0 40px;
 }
+
+@media (max-width: 600px) {
+  .img-block {
+    display: none;
+  }
+  .aboutUs-section-second .container {
+    padding-bottom: 0;
+    text-align: justify;
+  }
+  .aboutUS-section-third .container {
+    padding: 0 24px;
+    text-align: justify;
+  }
+  .aboutUs-title {
+    font-size: 1.3em;
+  }
+}

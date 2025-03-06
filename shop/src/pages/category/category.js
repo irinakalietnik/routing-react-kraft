@@ -1,7 +1,15 @@
-import { useLocation, useMatch, useParams, useRoutes } from "react-router-dom";
+import {
+  NavLink,
+  useLocation,
+  useMatch,
+  useParams,
+  useRoutes,
+} from "react-router-dom";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import { Outlet } from "react-router-dom";
-import "./category.css"
+import { ProductsItem } from "./products-item";
+
+import "./category.css";
 const category = ["Пшеничне", "Крафтове", "Безалкогольне", "Темне", "Світле"];
 
 function Category() {
@@ -12,12 +20,14 @@ function Category() {
           <ul className="category-list">
             {category.map((item) => (
               <li className="category-item">
-                <Link
-                  style={{ color: "white", fontWeight: "600" }}
+                <NavLink
+                  className="link-category"
                   to={`${item}`}
+                  exact
+                  activeClassName="active-category "
                 >
                   {item}
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>

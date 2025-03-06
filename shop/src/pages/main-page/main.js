@@ -22,26 +22,21 @@ function Main() {
       </section>
       <section className="second-main-section">
         <div className="container">
-          <div style={{ display: "flex" }}>
+          <div className="services">
             <div
               style={{
                 flexBasis: "50%",
               }}
             >
               <div>ПОСЛУГИ</div>
-              <div
-                style={{
-                  fontSize: "2em",
-                  flexBasis: "50%",
-                }}
-              >
+              <div className="title-section">
                 Основні послуги нашого інтернет-магазину крафтового пива
               </div>
             </div>
             <div
               style={{
                 borderLeft: "1px solid red",
-                paddingLeft: "40px",
+                paddingLeft: "5vw",
                 flexBasis: "50%",
               }}
             >
@@ -50,41 +45,48 @@ function Main() {
               інгредієнтів, щоб задовольнити навіть найвибагливіших гурманів.
             </div>
           </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              margin: "40px 0 0 0",
-            }}
-          >
+          <div className="services-block">
             <div className="services-img-block">
-              <div>
-                <img src="/image/pexels-photo-707408-150x150.jpeg" />
-              </div>
-              <div style={{ fontSize: "1.5em" }}>Виготовлення пива</div>
-              <div>Унікальні сорти пива, виготовлені з любов’ю.</div>
-              <div style={{ textTransform: "uppercase" }}>
-                <Link to="/about">Переглянути більше</Link>
+              <div className="text-center">
+                <img src={`${process.env.PUBLIC_URL}/image/craft-beer.jpg`} />
+                <p>Унікальні сорти пива, виготовлені з любов’ю.</p>
+                <div style={{ textTransform: "uppercase" }}>
+                  <Link className="main-link" to="/about">
+                    Переглянути більше
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="services-img-block">
-              <div>
-                <img src="/image/pexels-photo-1267360.jpeg" />
+              <div className="text-center">
+                <img
+                  src={`${process.env.PUBLIC_URL}/image/pexels-photo-1267360.jpeg`}
+                />
               </div>
-              <div style={{ fontSize: "1.5em" }}>Доставка пива</div>
+              <div className="mobile-none" style={{ fontSize: "1.5em" }}>
+                Доставка пива
+              </div>
               <div>Зручна доставка крафтового пива додому.</div>
               <div style={{ textTransform: "uppercase" }}>
-                <Link to="/about">Переглянути більше</Link>
+                <Link className="main-link" to="/about">
+                  Переглянути більше
+                </Link>
               </div>
             </div>
             <div className="services-img-block">
-              <div>
-                <img src="/image/pexels-photo-1267700.jpeg" />
+              <div className="text-center">
+                <img
+                  src={`${process.env.PUBLIC_URL}/image/pexels-photo-1267700.jpeg`}
+                />
               </div>
-              <div style={{ fontSize: "1.5em" }}>Спеціальні пропозиції</div>
+              <div className="mobile-none" style={{ fontSize: "1.5em" }}>
+                Спеціальні пропозиції
+              </div>
               <div>Пропозиції для гурманів та любителів пива.</div>
               <div style={{ textTransform: "uppercase" }}>
-                <Link to="/about">Переглянути більше</Link>
+                <Link className="main-link" to="/about">
+                  Переглянути більше
+                </Link>
               </div>
             </div>
           </div>
@@ -103,7 +105,7 @@ function Main() {
             }}
           >
             <div>ПРО НАС</div>
-            <div style={{ fontSize: "2em" }}>
+            <div className="title-section">
               Історія успіху нашого крафтового пивоваріння в Україні
             </div>
             <div>
@@ -118,7 +120,7 @@ function Main() {
                 borderRadius: "0 40px 0 40px",
                 objectFit: "cover",
               }}
-              src="/image/pexels-photo-3779784.jpeg"
+              src={`${process.env.PUBLIC_URL}/image/pexels-photo-3779784.jpeg`}
             />
           </div>
           <div style={{ display: "flex" }}>
@@ -136,7 +138,7 @@ function Main() {
                 смаки наших споживачів.
               </div>
               <div style={{ marginTop: "20px" }}>
-                <Link style={{ color: "#da2d0e" }} to="about">
+                <Link className="main-link" to="about">
                   ДІЗНАТИСЬ БІЛЬШЕ
                 </Link>
               </div>
@@ -146,16 +148,7 @@ function Main() {
       </section>
       <section className="fourth-main-section">
         <div className="container">
-          <div
-            style={{
-              color: "white",
-              margin: "30px",
-              fontSize: "2em",
-              textAlign: "center",
-            }}
-          >
-            Відгуки наших клієнтів
-          </div>
+          <div className="title-review">Відгуки наших клієнтів</div>
           <div className="reviews-block">
             <div className="review">
               <div
@@ -163,7 +156,10 @@ function Main() {
                   width: "100px",
                 }}
               >
-                <img style={{ width: "100%" }} src="/image/left-quotes.png" />
+                <img
+                  width={"40px"}
+                  src={`${process.env.PUBLIC_URL}/image/quotes2.png`}
+                />
               </div>
               <div>Дуже подобається ваше пиво! Справжній смак.</div>
               <div
@@ -173,10 +169,12 @@ function Main() {
                   <img
                     width="100%"
                     style={{ borderRadius: "50%" }}
-                    src="/image/team-skip-03.jpg"
+                    src={`${process.env.PUBLIC_URL}/image/team-skip-03.jpg`}
                   />
                 </div>
-                <div>Олександр Коваль</div>
+                <div>
+                  <i>Олександр Коваль</i>
+                </div>
               </div>
             </div>
             <div className="review">
@@ -185,7 +183,10 @@ function Main() {
                   width: "100px",
                 }}
               >
-                <img style={{ width: "100%" }} src="/image/left-quotes.png" />
+                <img
+                  width={"40px"}
+                  src={`${process.env.PUBLIC_URL}/image/quotes2.png`}
+                />
               </div>
               <div>Купую ваше пиво вже кілька років, ніколи не розчаровує.</div>
               <div
@@ -195,10 +196,12 @@ function Main() {
                   <img
                     width="100%"
                     style={{ borderRadius: "50%" }}
-                    src="/image/team-skip-04.jpg"
+                    src={`${process.env.PUBLIC_URL}/image/team-skip-04.jpg`}
                   />
                 </div>
-                <div>Катерина Левченко</div>
+                <div>
+                  <i>Катерина Левченко</i>
+                </div>
               </div>
             </div>
             <div className="review">
@@ -207,7 +210,10 @@ function Main() {
                   width: "100px",
                 }}
               >
-                <img style={{ width: "100%" }} src="/image/left-quotes.png" />
+                <img
+                  width={"40px"}
+                  src={`${process.env.PUBLIC_URL}/image/quotes2.png`}
+                />
               </div>
               <div>Чудове пиво з оригінальними смаками, рекомендую всім!</div>
               <div
@@ -217,10 +223,12 @@ function Main() {
                   <img
                     width="100%"
                     style={{ borderRadius: "50%" }}
-                    src="/image/team-skip-02.jpg"
+                    src={`${process.env.PUBLIC_URL}/image/team-skip-02.jpg`}
                   />
                 </div>
-                <div>Дмитро Сердюк</div>
+                <div>
+                  <i>Дмитро Сердюк</i>
+                </div>
               </div>
             </div>
           </div>
@@ -228,43 +236,43 @@ function Main() {
       </section>
       <section className="fifth-main-section">
         <div className="container">
-          <div style={{ textAlign: "center", margin: "40px" }}>
+          <div className="title-block">
             <div>НАША КОМАНДА</div>
-            <div style={{ fontSize: "2em" }}>
+            <div className="title-section">
               Експерти у виробництві крафтового пива
             </div>
           </div>
           <div className="team-grid">
             <div>
-              <img src="/image/team-skip-01.jpg" />
+              <img src={`${process.env.PUBLIC_URL}/image/team-skip-01.jpg`} />
             </div>
             <div className="persona-info">
               <h3>Майкл Христофер</h3>
               <p>Посада</p>
             </div>
             <div>
-              <img src="/image/team-skip-02.jpg" />
+              <img src={`${process.env.PUBLIC_URL}/image/team-skip-02.jpg`} />
             </div>
             <div className="persona-info">
               <h3>Давид Олександр</h3>
               <p>Посада</p>
             </div>
-            <div className="persona-info">
+            <div className="mobile-none">
               <Link style={{ fontSize: "1.2em", color: "#da2d0e" }} to="/about">
                 {" "}
                 Приєднуйтесь до нашої команди
               </Link>
             </div>
-            <div></div>
+            <div className="mobile-none"></div>
             <div>
-              <img src="/image/team-skip-03.jpg" />
+              <img src={`${process.env.PUBLIC_URL}/image/team-skip-03.jpg`} />
             </div>
             <div className="persona-info">
               <h3>Бенджамін Томас</h3>
               <p>Посада</p>
             </div>
             <div>
-              <img src="/image/team-skip-04.jpg" />
+              <img src={`${process.env.PUBLIC_URL}/image/team-skip-04.jpg`} />
             </div>
             <div className="persona-info">
               <h3>Емілі Грейс</h3>

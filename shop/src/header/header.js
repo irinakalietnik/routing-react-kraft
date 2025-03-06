@@ -1,16 +1,20 @@
 import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { CartContext } from "../context";
 
 import "./header.css";
 function Header() {
+  const cart = useContext(CartContext);
+
   return (
     <header>
       <div className="container">
         <div className="site-name">CRAFT</div>
         <nav className="nav-page">
-          <ul>
+          <ul className="list-menu">
             <li>
               <NavLink
-                style={{ color: "black" }}
+                className="default"
                 to="/"
                 exact
                 activeClassName="active"
@@ -20,8 +24,8 @@ function Header() {
             </li>
             <li>
               <NavLink
-                style={{ color: "black" }}
                 to="/about"
+                className="default"
                 exact
                 activeClassName="active"
               >
@@ -30,7 +34,7 @@ function Header() {
             </li>
             <li>
               <NavLink
-                style={{ color: "black" }}
+                className="default"
                 to="/assortment"
                 exact
                 activeClassName="active"
@@ -39,7 +43,22 @@ function Header() {
               </NavLink>
             </li>
           </ul>
-          <div className="order">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div onClick={cart.onclickMobileMenu} className="menu">
+              <img
+                width={"30px"}
+                src={`${process.env.PUBLIC_URL}/image/menu.png`}
+              />
+            </div>
+            <div style={{ position: "relative" }} onClick={cart.toggleShow}>
+              <div className="count-cart">{cart.items.length}</div>
+              <img
+                width={"50px"}
+                src={`${process.env.PUBLIC_URL}/image/cart.png`}
+              />
+            </div>
+          </div>
+          {/* <div className="order">
             <NavLink
               style={{
                 color: "#da2d0e",
@@ -52,7 +71,7 @@ function Header() {
             >
               ЗАМОВИТИ ЗАРАЗ
             </NavLink>
-          </div>
+          </div> */}
         </nav>
       </div>
     </header>

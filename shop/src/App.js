@@ -15,29 +15,38 @@ import {
   Routes,
   NavLink,
   Link,
+  BrowserRouter,
 } from "react-router-dom";
 import { NotFound } from "./pages/notFound/notFound";
+import { Context } from "./context";
 function App() {
   return (
-    <Router basename="routing-react-kraft">
-      <Header />
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="about" element={<AboutUs />} />
-        <Route path="assortment" element={<Category />}>
-          {category.map((item) => (
-            <>
-              <Route path={`${item}`} element={<Card categoryName={item} />} />
-            </>
-          ))}
-        </Route>
-        <Route path="/:productId" element={<DetailsProduct />} />
-        <Route path="order" element={<Order />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <BrowserRouter basename="/routing-react-kraft/">
+      <Context>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="about" element={<AboutUs />} />
+          <Route path="assortment" element={<Category />}>
+            {category.map((item) => (
+              <>
+                <Route
+                  path={`${item}`}
+                  element={<Card categoryName={item} />}
+                />
+              </>
+            ))}
+          </Route>
+          <Route path="/:productId" element={<DetailsProduct />} />
+          <Route path="order" element={<Order />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </Context>
+    </BrowserRouter>
   );
 }
 
 export default App;
+//   basename = "/routing-react-kraft/";
+// ,

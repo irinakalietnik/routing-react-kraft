@@ -10,7 +10,7 @@ function AboutUs() {
           </div>
         </div>
       </section>
-      <section>
+      <section className="aboutUs-section-second">
         <div
           style={{
             display: "flex",
@@ -19,7 +19,7 @@ function AboutUs() {
           }}
           className="container"
         >
-          <div>
+          <div className="abuutUs-text">
             <div style={{ fontSize: "1.5em" }}>Про нас</div>
             <div
               style={{
@@ -38,15 +38,15 @@ function AboutUs() {
               натуральним інгредієнтам і інноваційним технологіям видобутку.
             </p>
           </div>
-          <div>
+          <div className="img-block" style={{ width: "50%" }}>
             <img
               className="aboutUs-img"
-              src="/image/pexels-photo-1324896.jpeg"
+              src={`${process.env.PUBLIC_URL}/image/pexels-photo-1324896.jpeg`}
             />
           </div>
         </div>
       </section>
-      <section>
+      <section className="aboutUS-section-third">
         <div className="container">
           <div
             style={{
@@ -56,6 +56,12 @@ function AboutUs() {
               alignItems: "center",
             }}
           >
+            <div className="img-block">
+              <img
+                style={{ borderRadius: "0px 12px " }}
+                src={`${process.env.PUBLIC_URL}/image/pexels-photo-5538161-150x150.jpeg`}
+              />
+            </div>
             <div>
               <div style={{ fontSize: "2em" }}>Місія та бачення</div>
 
@@ -69,12 +75,6 @@ function AboutUs() {
                 Україні, створюючи неперевершені смаки та досвід споживання для
                 наших клієнтів та партнерів.
               </p>
-            </div>
-            <div>
-              <img
-                style={{ borderRadius: "6px" }}
-                src="/image/pexels-photo-5538161-150x150.jpeg"
-              />
             </div>
           </div>
         </div>

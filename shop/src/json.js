@@ -6,7 +6,7 @@ const products = [
     price: 56,
     category: "Пшеничне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/1/6/16643_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/4/172x240l85nn0/36344921511314.webp",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const products = [
     price: 78,
     category: "Крафтове",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/2/3/23876.jpg?auto=webp&format=pjpg&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/4/172x240l85nn0/36344921511314.webp",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const products = [
     price: 48,
     category: "Темне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/2/3/23867.jpg?auto=webp&format=pjpg&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/4/172x240l85nn0/36344921511314.webp",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const products = [
     price: 56,
     category: "Крафтове",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/1/r1902.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/4/172x240l85nn0/36344921511314.webp",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const products = [
     price: 146,
     category: "Крафтове",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/7/r7347.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/30/169x240l85nn0/98836377807663.webp",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const products = [
     price: 132,
     category: "Темне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/0/r0804_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/3/135x240l85nn0/60686269528333.webp",
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ const products = [
     price: 167,
     category: "Пшеничне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/9/r9993.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/3/135x240l85nn0/60686269528333.webp",
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ const products = [
     price: 140,
     category: "Крафтове",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/Q/1/Q1642_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/3/135x240l85nn0/60686269528333.webp",
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ const products = [
     price: 130,
     category: "Темне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/s/3/s3605.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/4/172x240l85nn0/36344921511314.webp",
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ const products = [
     price: 156,
     category: "Пшеничне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/9/1/91033_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/4/172x240l85nn0/36344921511314.webp",
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ const products = [
     price: 78,
     category: "Крафтове",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/2/3/23876.jpg?auto=webp&format=pjpg&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/4/172x240l85nn0/36344921511314.webp",
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ const products = [
     price: 132,
     category: "Темне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/9/1/91036.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/6/135x240l85nn0/83486690678624.webp",
   },
   {
     id: 13,
@@ -114,7 +114,7 @@ const products = [
     price: 156,
     category: "Пшеничне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/1/5/15639.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/6/135x240l85nn0/83486690678624.webp",
   },
   {
     id: 14,
@@ -123,7 +123,7 @@ const products = [
     price: 178,
     category: "Крафтове",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/9/r9996.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/6/135x240l85nn0/83486690678624.webp",
   },
   {
     id: 15,
@@ -132,7 +132,7 @@ const products = [
     price: 145,
     category: "Темне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/9/r9989.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/6/135x240l85nn0/83486690678624.webp",
   },
   {
     id: 16,
@@ -141,7 +141,7 @@ const products = [
     price: 160,
     category: "Пшеничне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/2/8/28673_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/7/135x240l85nn0/40725990404039.webp",
   },
   {
     id: 17,
@@ -150,7 +150,7 @@ const products = [
     price: 178,
     category: "Крафтове",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/5/r5234_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/7/135x240l85nn0/40725990404039.webp",
   },
   {
     id: 18,
@@ -159,7 +159,7 @@ const products = [
     price: 133,
     category: "Темне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/t/9/t9470.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/7/135x240l85nn0/40725990404039.webp",
   },
   {
     id: 20,
@@ -168,7 +168,7 @@ const products = [
     price: 56,
     category: "Безалкогольне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/1/6/16643_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/7/135x240l85nn0/40725990404039.webp",
   },
   {
     id: 21,
@@ -177,7 +177,7 @@ const products = [
     price: 78,
     category: "Безалкогольне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/2/3/23876.jpg?auto=webp&format=pjpg&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/19/158x240l85nn0/81325999328114.webp",
   },
   {
     id: 22,
@@ -186,7 +186,7 @@ const products = [
     price: 48,
     category: "Безалкогольне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/2/3/23867.jpg?auto=webp&format=pjpg&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/19/158x240l85nn0/81325999328114.webp",
   },
   {
     id: 23,
@@ -195,7 +195,7 @@ const products = [
     price: 56,
     category: "Безалкогольне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/1/r1902.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/16/169x240l85nn0/31767017892492.webp",
   },
   {
     id: 24,
@@ -204,7 +204,7 @@ const products = [
     price: 146,
     category: "Безалкогольне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/7/r7347.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/16/169x240l85nn0/31767017892492.webp",
   },
   {
     id: 25,
@@ -213,7 +213,7 @@ const products = [
     price: 132,
     category: "Безалкогольне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/0/r0804_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/37/173x240l85nn0/78834249310898.webp",
   },
   {
     id: 26,
@@ -222,7 +222,7 @@ const products = [
     price: 167,
     category: "Безалкогольне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/9/r9993.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/37/173x240l85nn0/78834249310898.webp",
   },
   {
     id: 8,
@@ -231,7 +231,7 @@ const products = [
     price: 140,
     category: "Крафтове",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/Q/1/Q1642_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/3/135x240l85nn0/60686269528333.webp",
   },
   {
     id: 27,
@@ -240,7 +240,7 @@ const products = [
     price: 130,
     category: "Безалкогольне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/s/3/s3605.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/7/135x240l85nn0/40725990404039.webp",
   },
   {
     id: 28,
@@ -249,7 +249,7 @@ const products = [
     price: 156,
     category: "Безалкогольне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/9/1/91033_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/3/135x240l85nn0/60686269528333.webp",
   },
   {
     id: 29,
@@ -258,7 +258,7 @@ const products = [
     price: 78,
     category: "Безалкогольне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/2/3/23876.jpg?auto=webp&format=pjpg&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/7/135x240l85nn0/40725990404039.webp",
   },
   {
     id: 30,
@@ -267,7 +267,7 @@ const products = [
     price: 132,
     category: "Безалкогольне",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/9/1/91036.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/4/172x240l85nn0/36344921511314.webp",
   },
   {
     id: 31,
@@ -276,7 +276,7 @@ const products = [
     price: 156,
     category: "Світле",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/1/5/15639.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/6/135x240l85nn0/83486690678624.webp",
   },
   {
     id: 32,
@@ -285,7 +285,7 @@ const products = [
     price: 178,
     category: "Світле",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/9/r9996.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/4/172x240l85nn0/36344921511314.webp",
   },
   {
     id: 33,
@@ -294,7 +294,7 @@ const products = [
     price: 145,
     category: "Світле",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/9/r9989.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/6/135x240l85nn0/83486690678624.webp",
   },
   {
     id: 34,
@@ -303,7 +303,7 @@ const products = [
     price: 160,
     category: "Світле",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/2/8/28673_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/6/135x240l85nn0/83486690678624.webp",
   },
   {
     id: 35,
@@ -312,7 +312,7 @@ const products = [
     price: 178,
     category: "Світле",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/r/5/r5234_1.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/4/172x240l85nn0/36344921511314.webp",
   },
   {
     id: 36,
@@ -321,7 +321,7 @@ const products = [
     price: 133,
     category: "Світле",
     image:
-      "https://goodwine.com.ua/media/catalog/product/cache/6fcc3261ae04eb835842842bdcf655db/t/9/t9470.png?auto=webp&format=png&width=960&height=1200&fit=cover",
+      "https://eliteko.com.ua/content/images/7/135x240l85nn0/40725990404039.webp",
   },
 ];
 export { products };

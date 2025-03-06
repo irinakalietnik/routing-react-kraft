@@ -3,10 +3,10 @@ footer {
 }
 .footer-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: white;
-  padding: 40px;
+  padding: 40px 0;
   border-radius: 0 40px 0 40px;
   margin: 40px 0 40px 0;
 }
@@ -14,4 +14,36 @@ footer {
   color: white;
   display: flex;
   justify-content: space-between;
+}
+footer .mobile-none {
+  display: block;
+}
+.descktop-none {
+  display: none;
+}
+@media (max-width: 960px) {
+  .footer-top {
+    padding: 20px;
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 600px) {
+  footer .mobile-none {
+    display: none;
+  }
+  .footer-top {
+    display: none;
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .descktop-none {
+    display: block;
+  }
+  .footer-list li {
+    padding: 8px;
+    text-align: center;
+  }
 }

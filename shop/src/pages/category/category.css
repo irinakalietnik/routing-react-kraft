@@ -28,3 +28,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.link-category {
+  color: white;
+  font-weight: 600;
+}
+.active-category {
+  color: rgba(155, 144, 144, 0.8);
+}
