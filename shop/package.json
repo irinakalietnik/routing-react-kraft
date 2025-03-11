@@ -1,8 +1,8 @@
 {
   "name": "shop",
   "version": "0.1.0",
-  "homepage": "https://irinakalietnik.github.io/routing-react-kraft",
   "private": true,
+  "homepage": "https://irinakalietnik.github.io/routing-react-kraft",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",

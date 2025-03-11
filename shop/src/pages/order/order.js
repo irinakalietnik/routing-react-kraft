@@ -1,9 +1,9 @@
 import { useLocation } from "react-router-dom";
 import "./order.css";
-import { useContext, useRef, useState } from "react";
+import { useContext, useState } from "react";
 import { CartContext } from "../../context";
 import { ShowAlert } from "./showAlert";
-import { useNavigate } from "react-router-dom";
+
 function Order() {
   let message;
   const location = useLocation();
@@ -26,6 +26,7 @@ function Order() {
     setValue("");
     cart.deleteCart();
   };
+
   return (
     <section className="order-section">
       <div className="container">

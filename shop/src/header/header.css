@@ -32,6 +32,9 @@ header .container {
   background-color: #db4d34;
   padding: 2px;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nav-page {
   display: flex;

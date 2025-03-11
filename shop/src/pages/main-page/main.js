@@ -98,7 +98,7 @@ function Main() {
             style={{
               display: "flex",
               flexDirection: "column",
-              gap: "40px",
+              gap: "20px",
               maxWidth: "600px",
               textAlign: "center",
               margin: "0 auto",
@@ -113,7 +113,7 @@ function Main() {
               натхненням.
             </div>
           </div>
-          <div style={{ height: "440px", display: "flex", margin: "40px 0" }}>
+          <div style={{ height: "440px", display: "flex", margin: "20px 0" }}>
             <img
               style={{
                 width: "100%",

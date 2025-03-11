@@ -6,11 +6,12 @@ import "./modalMobile.css";
 
 function ModalMobile() {
   const modal = useContext(CartContext);
+
   return ReactDOM.createPortal(
     <div>
       <div
         className={
-          modal.showMobileMenu ? "mobile-menu" : "mobile-menu mobile-is-open"
+          modal.showMobileMenu ? "mobile-menu mobile-is-open" : "mobile-menu "
         }
       >
         <div className="modal-close" onClick={modal.onclickMobileMenu}>

@@ -28,26 +28,26 @@
 .input-box {
   align-items: center;
   display: flex;
-  width: 300px;
+  width: 340px;
   gap: 30px;
+  justify-content: space-between;
 }
 .input-cart {
+  padding: 0;
+  font-size: 20px;
   text-align: center;
-  border-radius: 6px;
-  padding: 8px;
-  height: 100%;
-  max-width: 60px;
 }
 .btn-add-cart {
-  background-color: #df8e80;
-  padding: 10px;
+  background-color: #cf5e4a;
+  padding: 16px;
   color: white;
   border-radius: 6px;
   border: none;
   font-weight: 600;
+  font-size: 18px;
 }
 .btn-add-cart:hover {
-  background-color: #db4d34;
+  background-color: rgb(165, 40, 18);
 }
 .left-block {
   flex-basis: 40%;
@@ -95,8 +95,23 @@
   color: rgb(172, 168, 168);
   padding: 2px;
   text-decoration: underline;
-
   width: fit-content;
+}
+.update-input {
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  border: 1px solid #db4d34;
+  border-radius: 6px;
+  max-width: 110px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.update-sign {
+  text-align: center;
+  color: grey;
+  font-size: 22px;
+  font-weight: 600;
 }
 td {
   padding: 4px;
@@ -116,7 +131,7 @@ td {
   .mobile-input-box {
     align-items: center;
     display: flex;
-    width: 300px;
+    width: 340px;
     gap: 30px;
   }
   .left-block {

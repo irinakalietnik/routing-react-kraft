@@ -19,7 +19,7 @@
 }
 .aboutUs-img {
   width: 100%;
-  border-radius: 0 40px;
+  border-radius: 20px;
 }
 
 @media (max-width: 600px) {

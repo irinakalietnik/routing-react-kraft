@@ -41,7 +41,7 @@ function AboutUs() {
           <div className="img-block" style={{ width: "50%" }}>
             <img
               className="aboutUs-img"
-              src={`${process.env.PUBLIC_URL}/image/pexels-photo-1324896.jpeg`}
+              src={`${process.env.PUBLIC_URL}/image/beer13.jpg`}
             />
           </div>
         </div>
@@ -58,8 +58,8 @@ function AboutUs() {
           >
             <div className="img-block">
               <img
-                style={{ borderRadius: "0px 12px " }}
-                src={`${process.env.PUBLIC_URL}/image/pexels-photo-5538161-150x150.jpeg`}
+                className="aboutUs-img"
+                src={`${process.env.PUBLIC_URL}/image/beer12.jpg`}
               />
             </div>
             <div>

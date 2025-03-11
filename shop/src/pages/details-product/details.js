@@ -8,16 +8,20 @@ import { Delivery } from "./details-components/delivery";
 import { Paynment } from "./details-components/payment";
 import { Description } from "./details-components/description";
 import { Specifications } from "./details-components/specifications";
-function DetailsProduct(props) {
+
+function DetailsProduct() {
+  const [stateDelivery, setStateDelivery] = useState("DELIVERY");
+  const [stateInfo, setStateInfo] = useState("DESCRIPTION");
   const { productId } = useParams();
+
   let navigate = useNavigate();
   const handleClick = () => {
     navigate(-1);
   };
+
   const cart = useContext(CartContext);
   const [quantity, setQuantity] = useState(1);
-  const [stateDelivery, setStateDelivery] = useState("DELIVERY");
-  const [stateInfo, setStateInfo] = useState("DESCRIPTION");
+
   return (
     <div className="container">
       {products
@@ -55,15 +59,26 @@ function DetailsProduct(props) {
                 {el.price} грн.
               </div>
               <div className="mobile-box mobile-input-box">
-                <input
-                  className="input-cart"
-                  type="number"
-                  min="1"
-                  value={quantity}
-                  onChange={(e) =>
-                    setQuantity(parseInt(e.target.value, 10) || 1)
-                  }
-                />
+                <div className="update-input">
+                  <div
+                    className="update-sign"
+                    onClick={() => setQuantity((v) => v - 1 || 1)}
+                  >
+                    −
+                  </div>
+                  <input
+                    className="input-cart"
+                    type="text"
+                    min="1"
+                    value={quantity}
+                  />
+                  <div
+                    className="update-sign"
+                    onClick={() => setQuantity((v) => v + 1)}
+                  >
+                    +
+                  </div>
+                </div>
                 <button
                   className="btn-add-cart"
                   onClick={() => {
@@ -128,15 +143,26 @@ function DetailsProduct(props) {
               </div>
 
               <div className=" input-box ">
-                <input
-                  className="input-cart"
-                  type="number"
-                  min="1"
-                  value={quantity}
-                  onChange={(e) =>
-                    setQuantity(parseInt(e.target.value, 10) || 1)
-                  }
-                />
+                <div className="update-input">
+                  <div
+                    className="update-sign"
+                    onClick={() => setQuantity((v) => v - 1 || 1)}
+                  >
+                    −
+                  </div>
+                  <input
+                    className="input-cart"
+                    type="text"
+                    min="1"
+                    value={quantity}
+                  />
+                  <div
+                    className="update-sign"
+                    onClick={() => setQuantity((v) => v + 1)}
+                  >
+                    +
+                  </div>
+                </div>
                 <button
                   className="btn-add-cart"
                   onClick={() => {
@@ -172,32 +198,6 @@ function DetailsProduct(props) {
                 {stateDelivery === "DELIVERY" ? <Delivery /> : <Paynment />}
               </div>
             </div>
-            {/* <ul
-              style={{
-                display: "flex",
-                fontSize: "1.5em",
-                flexDirection: "column",
-                gap: "30px",
-              }}
-            >
-              <li className="details-back" onClick={handleClick}>
-                <img
-                  width="16px"
-                  src={`${process.env.PUBLIC_URL}/image/left.png`}
-                />
-                <span className="light-link"> Повернутись назад</span>
-              </li>
-              <li>{el.name}</li>
-              <li>{el.size}</li>
-              <li>{`${el.price} грн.`}</li>
-            </ul> */}
-            {/* <div style={{ display: "flex" }}>
-              <img width="100%" src={el.image} />
-            </div>
-            <div onClick={() => cart.append(el)}>
-              <span>додати до корзини</span>
-              <div>{cart.items.length}</div>
-            </div> */}
           </div>
         ))}
     </div>

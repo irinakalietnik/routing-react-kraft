@@ -46,9 +46,7 @@
 .main-link {
   color: grey;
 }
-.second-main-section {
-  padding: 4vw 0 4vw 0;
-}
+
 .services-block {
   display: flex;
   justify-content: space-between;
@@ -92,6 +90,7 @@
   flex-direction: column;
   gap: 20px;
   padding: 16px;
+  width: 100%;
 }
 .title-review {
   color: white;

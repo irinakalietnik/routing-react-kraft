@@ -13,8 +13,6 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  NavLink,
-  Link,
   BrowserRouter,
 } from "react-router-dom";
 import { NotFound } from "./pages/notFound/notFound";
@@ -49,4 +47,4 @@ function App() {
 
 export default App;
 //   basename = "/routing-react-kraft/";
-// ,
+// "homepage": "https://irinakalietnik.github.io/routing-react-kraft",,

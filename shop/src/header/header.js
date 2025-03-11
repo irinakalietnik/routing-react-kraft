@@ -58,20 +58,6 @@ function Header() {
               />
             </div>
           </div>
-          {/* <div className="order">
-            <NavLink
-              style={{
-                color: "#da2d0e",
-                textDecoration: "none",
-                fontWeight: "600",
-              }}
-              to="order"
-              exact
-              activeClassName="active"
-            >
-              ЗАМОВИТИ ЗАРАЗ
-            </NavLink>
-          </div> */}
         </nav>
       </div>
     </header>

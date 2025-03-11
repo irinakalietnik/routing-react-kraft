@@ -13,6 +13,7 @@
 }
 .modal {
   position: relative;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,6 +25,23 @@
   padding: 40px;
   overflow: auto;
 }
+.cart-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.update-block {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-price {
+  text-align: end;
+  font-weight: 900;
+  padding: 20px;
+}
 @media (max-width: 900px) {
   .modal {
     border-radius: 0;
@@ -34,7 +52,6 @@
 @media (max-width: 600px) {
   .modal {
     padding: 20px;
-    font-size: 0.8em;
   }
 }
 .modal-close {
@@ -51,18 +68,14 @@
   justify-content: center;
   gap: 20px;
 }
-.modal-table td,
-th {
-  text-align: center;
-  padding: 14px;
-}
+
 .modal-img-block {
   display: flex;
   gap: 6px;
   align-items: center;
 }
-.img-block img {
-  width: 60px;
+.modal-img-block img {
+  width: 80px;
 }
 .modal-title {
   align-self: flex-start;
@@ -71,33 +84,28 @@ th {
   font-weight: 600;
   color: #db4d34;
 }
-.modal-table .input-cart {
-  max-width: 60px;
-}
+
 .btns-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 @media (max-width: 600px) {
-  .modal-img-block {
-    flex-direction: column;
-  }
   .modal-img-block img {
-    width: 40px;
+    width: 70px;
   }
-  .modal-table .input-cart {
-    max-width: 30px;
-    font-size: 11px;
+  .cart-row {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
   }
-  .modal-table td,
-  th {
+  .update-block {
+    width: 100%;
+  }
+  .main-price {
     text-align: center;
-    padding: 4px;
   }
   .modal .btn-main {
-    font-size: 0.7em;
-    padding: 0.8em;
     border-radius: 3px;
     width: fit-content;
     align-self: center;
